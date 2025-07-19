@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiosco #19 - Restaurante Frente al Lago | Copacabana, Bolivia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Updated Font Awesome CDN with multiple fallbacks -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Backup Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1>Kiosco #19</h1>
+                    <span>Copacabana</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio" data-translate="nav-home">Home</a></li>
+                    <li><a href="#menu" data-translate="nav-menu">Menu</a></li>
+                    <li><a href="#ubicacion" data-translate="nav-location">Location</a></li>
+                    <li><a href="#contacto" data-translate="nav-contact">Contact</a></li>
+                </ul>
+                <div class="language-toggle">
+                    <button class="lang-btn" data-lang="en" title="English">
+                        🇺🇸 EN
+                    </button>
+                    <button class="lang-btn active" data-lang="es" title="Español">
+                        🇪🇸 ES
+                    </button>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-waves">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+        <div class="wave-pattern"></div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">Kiosco #19</h1>
+            <p class="hero-subtitle">Sabores Auténticos Frente al Sagrado Lago Titicaca</p>
+            <p class="hero-description">
+                Disfruta de la mejor trucha fresca y platos tradicionales bolivianos 
+                en un ambiente único con vista panorámica al lago más alto del mundo.
+            </p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Ver Menú</a>
+                <a href="#ubicacion" class="btn btn-secondary">Cómo Llegar</a>
+            </div>
+        </div>
+        <div class="hero-features">
+            <div class="feature">
+                <i class="fas fa-fish"></i>
+                <span>Trucha Fresca del Lago</span>
+            </div>
+            <div class="feature">
+                <i class="fas fa-mountain"></i>
+                <span>Vista al Lago Titicaca</span>
+            </div>
+            <div class="feature">
+                <i class="fas fa-utensils"></i>
+                <span>Cocina Tradicional</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <section class="highlights">
+        <div class="container">
+            <div class="highlight-grid">
+                <div class="highlight-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Ubicación Privilegiada</h3>
+                    <p>Directamente en la orilla del Lago Titicaca, con las mejores vistas de Copacabana</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-fish"></i>
+                    <h3>Trucha Fresca</h3>
+                    <p>Pescado fresco del lago, preparado al momento con recetas tradicionales</p>
+                </div>
+                <div class="highlight-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Horarios Amplios</h3>
+                    <p>Abierto todos los días de 9:00 AM a 10:00 PM para tu comodidad</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Nuestro Menú</h2>
+            <p class="section-subtitle">Sabores auténticos de Bolivia con la frescura del Lago Titicaca</p>
+            
+            <!-- Main Dishes -->
+            <div class="menu-category">
+                <h3 class="category-title">
+                    <i class="fas fa-utensils"></i>
+                    Platos Principales
+                </h3>
+                <div class="menu-grid">
+                    <div class="menu-item featured">
+                        <div class="menu-item-content">
+                            <h4>Trucha a la Plancha</h4>
+                            <p>Trucha totalmente cocida con su propio aceite, rica en Omega 3. Una preparación saludable que conserva todo el sabor natural del pescado fresco del lago.</p>
+                            <div class="menu-tags">
+                                <span class="tag healthy">Saludable</span>
+                                <span class="tag omega">Rico en Omega 3</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <h4>Trucha al Ajillo</h4>
+                            <p>Cocinada con ajo en plancha, sabor agradable. Acompañada de arroz, papas fritas y ensalada fresca.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <h4>Trucha a la Diabla</h4>
+                            <p>Con chorrellana picante sobre el pescado. Viene con arroz, papas fritas y ensalada. Para los amantes del picante.</p>
+                            <div class="menu-tags">
+                                <span class="tag spicy">Picante</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <h4>Trucha a la Romana</h4>
+                            <p>Rebozada en pan duro y huevo, dorada a la perfección. Acompañada de arroz, papas fritas y ensalada.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <h4>Trucha a la Mantequilla</h4>
+                            <p>Cocinada con mantequilla para un sabor suave y delicioso. Servida con arroz, papas fritas y ensalada.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <h4>Chicharrón de Trucha</h4>
+                            <p>Trozos rectangulares de trucha dorados en aceite. Crujiente por fuera, suave por dentro. Con arroz, papas fritas y ensalada.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item featured">
+                        <div class="menu-item-content">
+                            <h4>Pique Macho</h4>
+                            <p>El clásico boliviano con carne de res, salchicha, cebolla, tomate, huevo. Acompañado de papas fritas, ketchup y mayonesa.</p>
+                            <div class="menu-tags">
+                                <span class="tag traditional">Tradicional</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <h4>Lomo</h4>
+                            <p>Corte premium de carne de res con dos huevos. Acompañado de arroz, papas fritas y ensalada fresca.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <h4>Milanesa de Pollo</h4>
+                            <p>Filete de pollo rebozado en pan duro y huevo. Servido con arroz, papas fritas y ensalada.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <h4>Milanesa de Carne</h4>
+                            <p>Filete de res rebozado en pan duro y huevo. Acompañado de arroz, papas fritas y ensalada.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-content">
+                            <h4>Chicharrón de Cerdo</h4>
+                            <p>Trozos irregulares con corteza dorada y crujiente. Textura que varía de suave a crocante según la preparación.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Beverages -->
+            <div class="menu-category">
+                <h3 class="category-title">
+                    <i class="fas fa-glass-cheers"></i>
+                    Bebidas
+                </h3>
+                
+                <div class="beverage-section">
+                    <h4 class="beverage-subtitle">Gaseosas Familiares</h4>
+                    <div class="beverage-grid">
+                        <div class="beverage-item">
+                            <h5>Coca Cola 2L</h5>
+                            <p>La clásica bebida carbonatada, ideal para compartir</p>
+                        </div>
+                        <div class="beverage-item">
+                            <h5>Fanta Naranja 2L</h5>
+                            <p>Refrescante sabor cítrico para toda la familia</p>
+                        </div>
+                        <div class="beverage-item">
+                            <h5>Fanta Papaya 2L</h5>
+                            <p>Sabor tropical intenso y dulce</p>
+                        </div>
+                        <div class="beverage-item">
+                            <h5>Fanta Guaraná 2L</h5>
+                            <p>Sabor distintivo amazónico, dulce y ligeramente amargo</p>
+                        </div>
+                        <div class="beverage-item">
+                            <h5>Inca Kola 2.5L</h5>
+                            <p>El ícono peruano, sabor único y tropical</p>
+                        </div>
+                        <div class="beverage-item">
+                            <h5>Frut-All 1L</h5>
+                            <p>Jugo de frutas dulce y ligeramente ácido</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="beverage-section">
+                    <h4 class="beverage-subtitle">Cervezas</h4>
+                    <div class="beverage-grid">
+                        <div class="beverage-item featured">
+                            <h5>Cerveza Huari 620ml</h5>
+                            <p>Cerveza boliviana tradicional de las Serranías de Azanaque</p>
+                        </div>
+                        <div class="beverage-item featured">
+                            <h5>Cerveza Paceña 620ml</h5>
+                            <p>Símbolo de identidad boliviana con más de 130 años de historia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="beverage-section">
+                    <h4 class="beverage-subtitle">Bebidas Individuales</h4>
+                    <div class="beverage-grid">
+                        <div class="beverage-item">
+                            <h5>Coca Cola Popular 600ml</h5>
+                            <p>En su clásico envase de vidrio retornable</p>
+                        </div>
+                        <div class="beverage-item">
+                            <h5>Fanta Naranja Popular 600ml</h5>
+                            <p>Refrescante sabor cítrico en formato tradicional</p>
+                        </div>
+                        <div class="beverage-item">
+                            <h5>Sprite Popular 600ml</h5>
+                            <p>Sabor cítrico refrescante y burbujeante</p>
+                        </div>
+                        <div class="beverage-item">
+                            <h5>Coca Quina Popular 640ml</h5>
+                            <p>Bebida tradicional boliviana de la región andina</p>
+                        </div>
+                        <div class="beverage-item">
+                            <h5>Coca Cola Zero 500ml</h5>
+                            <p>El sabor clásico sin calorías</p>
+                        </div>
+                        <div class="beverage-item">
+                            <h5>Bebidas Personales 190ml</h5>
+                            <p>Coca Cola, Fanta Naranja y Sprite en formato personal</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="ubicacion" class="location-section">
+        <div class="container">
+            <h2 class="section-title">Nuestra Ubicación</h2>
+            <div class="location-content">
+                <div class="location-info">
+                    <h3>Frente al Sagrado Lago Titicaca</h3>
+                    <p>Nos encontramos en la hermosa Av. Costanera de Copacabana, directamente frente al lago más alto del mundo. Disfruta de vistas espectaculares mientras saboreas nuestros platos.</p>
+                    
+                    <div class="location-details">
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Av. Costanera, Copacabana, Bolivia</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Lunes a Domingo: 9:00 AM - 10:00 PM</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-phone"></i>
+                            <span>75866254</span>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-wifi"></i>
+                            <span>WiFi gratuito disponible</span>
+                        </div>
+                    </div>
+                    
+                    <div class="location-features">
+                        <h4>¿Por qué visitarnos?</h4>
+                        <ul>
+                            <li>Vista panorámica al Lago Titicaca</li>
+                            <li>Ambiente familiar y acogedor</li>
+                            <li>Terraza frente al lago</li>
+                            <li>Fácil acceso desde el centro de Copacabana</li>
+                            <li>Estacionamiento disponible</li>
+                            <li>Ideal para turistas y locales</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="location-map">
+                    <div class="embedded-map">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.8!2d-69.08!3d-16.16!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f2234a40b5e53%3A0x9b0b0b0b0b0b0b0b!2sCopacabana%2C%20Bolivia!5e0!3m2!1ses!2sus!4v1642525200000!5m2!1ses!2sus"
+                            width="100%" 
+                            height="400" 
+                            style="border:0; border-radius: 12px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                        <div class="map-overlay">
+                            <div class="map-info">
+                                <h4>Kiosco #19</h4>
+                                <p>Av. Costanera, Copacabana</p>
+                                <a href="https://maps.app.goo.gl/uUwujsbwGhgKt8hJ6" target="_blank" class="map-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Abrir en Google Maps
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contáctanos</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Reservas y Consultas</h3>
+                    <p>Estamos aquí para hacer de tu visita una experiencia memorable. No dudes en contactarnos para reservas o cualquier consulta.</p>
+                    
+                    <div class="contact-methods">
+                        <a href="tel:75866254" class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span>Teléfono</span>
+                                <strong>75866254</strong>
+                            </div>
+                        </a>
+                        
+                        <a href="https://maps.app.goo.gl/uUwujsbwGhgKt8hJ6" target="_blank" class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span>Dirección</span>
+                                <strong>Av. Costanera, Copacabana</strong>
+                            </div>
+                        </a>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <span>Horarios</span>
+                                <strong>9:00 AM - 10:00 PM</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-highlights">
+                    <h3>Visítanos Hoy</h3>
+                    <p>Estamos ubicados en el mejor lugar de Copacabana con vista privilegiada al Lago Titicaca. ¡Te esperamos!</p>
+                    
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <i class="fas fa-utensils"></i>
+                            <h4>Especialidades</h4>
+                            <ul>
+                                <li>Trucha fresca del Lago Titicaca</li>
+                                <li>Pique Macho tradicional</li>
+                                <li>Platos bolivianos auténticos</li>
+                                <li>Vista panorámica al lago</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="quick-actions">
+                        <h4>Contáctanos Ahora</h4>
+                        <div class="action-buttons">
+                            <a href="tel:75866254" class="action-btn call-btn">
+                                <i class="fas fa-phone"></i>
+                                <span>Llamar Ahora</span>
+                            </a>
+                            <a href="#" class="action-btn whatsapp-btn" data-whatsapp="true">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>WhatsApp</span>
+                            </a>
+                            <a href="https://maps.app.goo.gl/uUwujsbwGhgKt8hJ6" target="_blank" class="action-btn location-btn">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Ver Ubicación</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Kiosco #19</h3>
+                    <p>El mejor restaurante frente al Lago Titicaca en Copacabana, Bolivia. Sabores auténticos con vistas incomparables.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Horarios</h4>
+                    <p>Lunes a Domingo<br>9:00 AM - 10:00 PM</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>Teléfono: 75866254<br>Av. Costanera, Copacabana</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Especialidades</h4>
+                    <p>Trucha Fresca del Lago<br>Cocina Tradicional Boliviana</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kiosco #19 Copacabana. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
